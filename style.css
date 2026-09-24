@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(135deg, #141e30, #243b55);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.clock-container {
+    background: rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    border-radius: 15px;
+    text-align: center;
+    width: 320px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.5);
+}
+
+#clock {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+#date {
+    margin-bottom: 20px;
+    font-size: 16px;
+    opacity: 0.9;
+}
+
+.alarm input {
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+.alarm button {
+    padding: 8px 15px;
+    margin: 5px;
+    font-size: 14px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.alarm button:first-of-type {
+    background: #34c759;
+    color: white;
+}
+
+.alarm button:last-of-type {
+    background: #ff3b30;
+    color: white;
+}
+
+#alarmStatus {
+    margin-top: 15px;
+    font-size: 14px;
+}
